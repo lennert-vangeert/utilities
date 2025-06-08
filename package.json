@@ -1,0 +1,35 @@
+{
+  "name": "@lennert-vangeert/utilities",
+  "version": "1.0.1",
+  "description": "A collection of TypeScript utility functions (ES modules)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lennert-vangeert/utilities.git"
+  },
+  "homepage": "https://github.com/lennert-vangeert/utilities/#readme",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "utilities",
+    "ts-utils"
+  ],
+  "author": {
+    "name": "Lennert Van Geert",
+    "url": "https://github.com/lennert-vangeert"
+  },
+  "license": "UNLICENSED",
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "undici-types": "^7.10.0"
+  }
+}
